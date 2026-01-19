@@ -1,0 +1,13 @@
+# Weapon Detection - Test Dataset Configuration
+
+path: test_dataset
+
+train: images
+val: images
+
+nc: 4
+names:
+  - knife
+  - gun
+  - pistol
+  - grenade

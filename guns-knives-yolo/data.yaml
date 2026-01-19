@@ -1,0 +1,5 @@
+train: /kaggle/input/guns-knives-object-detection/guns-knives-yolo/guns-knives-yolo/train/images
+val: /kaggle/input/guns-knives-object-detection/guns-knives-yolo/guns-knives-yolo/valid/images
+
+nc: 2
+names: ["knife", "pistol"]

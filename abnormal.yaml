@@ -1,0 +1,9 @@
+path: abnormal_dataset
+
+train: images/train
+val: images/val
+
+nc: 2
+names:
+  0: knife
+  1: gun

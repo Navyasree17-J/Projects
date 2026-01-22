@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-01-20T06:38:37",
+  "weapon_detection": {
+    "model": "weapon_detection",
+    "map50": 0.1451675232772539,
+    "map50_95": 0.08434283070782483,
+    "precision": 0.19433696313799084,
+    "recall": 0.15259259259259259,
+    "overall_accuracy": 0.1451675232772539
+  },
+  "crowd_detection": {
+    "model": "crowd_detection",
+    "map50": 0.06623214570513096,
+    "map50_95": 0.04534651221383797,
+    "precision": 0.08960270448998996,
+    "recall": 0.26101851851851854,
+    "overall_accuracy": 0.06623214570513096
+  },
+  "alarm_system": {
+    "model": "alarm_system",
+    "weapon_alarm_reliability": 0.02965438104179712,
+    "crowd_alarm_reliability": 0.023387965181229788,
+    "overall_alarm_accuracy": 0.026521173111513453
+  },
+  "screenshot_system": {
+    "model": "screenshot_system",
+    "capture_count": 36,
+    "system_writable": true,
+    "overall_accuracy": 0.95
+  },
+  "overall_system": {
+    "overall_accuracy": 0.1742941187661374,
+    "component_accuracies": {
+      "weapon_detection": 0.1451675232772539,
+      "crowd_detection": 0.06623214570513096,
+      "alarm_system": 0.026521173111513453,
+      "screenshot_system": 0.95
+    },
+    "weights": {
+      "weapon_detection": 0.35,
+      "crowd_detection": 0.35,
+      "alarm_system": 0.2,
+      "screenshot_system": 0.1
+    }
+  }
+}

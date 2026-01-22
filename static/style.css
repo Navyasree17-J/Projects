@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+    color: #38bdf8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.video-box, .graph-box {
+    background: #111827;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+img {
+    width: 420px;
+    border-radius: 8px;
+    border: 2px solid #38bdf8;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #9ca3af;
+}
